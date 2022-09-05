@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  body{
+      width: 100vw;
+      border: 1px solid red;
+  }
+  /*ESTO ES LA BARRA DE NAVEGACION*/
+  .navbar {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #126491;
+  
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar:hover {
+    width: 100%;
+    margin:0;
+    padding: 10px;
+    background-color: #3689ad;
+  
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-start;
+  }
+  
+  .navbar ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #a7c6d7;
+    position: relative;
+  }
+  .navbar ul li a:hover {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+  }
+  
+  /*ESTO ES LA IMAGEN PRINCIPAL*/
+  
+  .encabezado-img {
+    background-image: url(img/PORTADA.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d0d3d4;
+    font-size: 25px;
+  }
+  
+  /*ESTO ES LA IMAGEN DE ATENCION SANITARIA*/
+  
+  .doctora {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  .doctora:hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 8px 4px #a7c6d7;
+  }
+  
+  /*TEXTO DE ATENCION SANITARIA*/
+  
+  .container {
+    display: flex;
+    text-align: center;
+  }
+  
+  .container h4 {
+    width: 100%;
+    color: #126491;
+    font-size: 30px;
+    margin-top: 150px;
+  }
+  
+  .container h2 {
+    width: 100%;
+    color: #3689ad;
+    font-size: 60px;
+    margin-top: 30px;
+  }
+  
+  .txt {
+    width: 100%;
+    color: #3689ad;
+    margin-top: 30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  
+  .container b {
+    width: 100%;
+    color: #126491;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  /*IMAGEN Y TEXTO DE CONSULTA EN LINEA*/
+  
+  .online {
+    width: 100%;
+    height: 700px;
+  }
+  .h4-turno {
+    margin-bottom: 100px;
+    margin-left: 25px;
+    width: 100%;
+    color: #126491;
+    font-size: 50px;
+  }
+  .txtTurno {
+    margin-left: 40px;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  .txtTurno:hover {
+    margin-left: 40px;
+    width: 100%;
+    color: #126491;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  .p-turno {
+    width: 100%;
+    color: #126491;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  
+  .imagenTurno {
+    width: 50%;
+    position: absolute;
+    top: 160%;
+    margin-left: 30px;
+    background-size: cover;
+    background-position: right;
+  }
+  
+  /*TARJETA DE DOCTORES*/
+  
+  .tarjeta {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+  }
+  
+  .card {
+    padding: 15px;
+    margin-top: 50px;
+    width: 250px;
+    border: 1px solid #d0d3d4;
+    box-shadow: 2px 2px 8px 4px #d0d3d4;
+    border-radius: 15px;
+    font-family: sans-serif;
+  }
+  
+  .card-img-top {
+    font-size: 24px;
+    padding: 10px 10px 0 10px;
+    width: 50%;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  img {
+    box-align: center;
+  }
+  
+  .boton {
+    text-decoration: none;
+    padding: 3px 2px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #a7c6d7;
+    color: #126491;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .boton:hover {
+    background-color: #126491;
+    color: #a7c6d7;
+    box-shadow: 2px 2px 8px 4px #a7c6d7;
+    transition: all 0.2s ease;
+  }
+  
+  /*FORMULARIO DE REGISTRO*/
+  
+  .registro {
+    width: 96vw;
+    display: flex;
+    justify-content: center;
+    background: #126491;
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 4px;
+    border: 1px solid red;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #a7c6d7;
+  }
+  
+  .registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .control {
+    width: 90%;
+    align-items: center;
+    background: #d0d3d4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #a7c6d7;
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 91%;
+    height: 100px;
+    background: white;
+    margin-bottom: 10px;
+    color: #d0d3d4;
+  }
+  
+  /*BOTON DE ENVIAR*/
+  
+  .enviar {
+    position: center;
+    width: 450px;
+    background: #a7c6d7;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #126491;
+    margin-right: 10px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #d0d3d4;
+  }
+  
+  .enviar:hover {
+    background-color: #a7c6d7;
+    color: #126491;
+    box-shadow: 2px 2px 8px 4px #a7c6d7;
+    transition: all 0.2s ease;
+  }
+  
+  /*BOTON PARA VER EL TURNO*/
+  
+  .verTurno {
+    position: center;
+    width: 450px;
+    background: #a7c6d7;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #126491;
+    margin-right: 10px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #d0d3d4;
+  }
+  
+  .verTurno:hover {
+    background-color: #a7c6d7;
+    color: #126491;
+    box-shadow: 2px 2px 8px 4px #a7c6d7;
+    transition: all 0.2s ease;
+  }
+  
+  /*TEXTO DE TURNOS*/
+  
+  h3 {
+    text-align: center;
+    color: #126491;
+    padding-top: 50px;
+  }
+  
+  .textoTurno {
+    color: #3689ad;
+    padding-top: 10px;
+  }
+  
+  /*PERSONAL DE CLINICA ACTUAL Y PREPAGA*/
+  
+  .noticias {
+    background-color: #8bb0bf;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+  }
+  .noticias:hover {
+    background-color: #8bb0bf;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 8px 4px #a7c6d7;
+  }
+  .noti {
+    height: 604px;
+  }
+  
+  .personal-clinica {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 355%;
+    left: 70%;
+  }
+  
+  .personal-pre1 { 
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 385%; /*ESTA ES LA SOLUCION QUE ENCONTRE EN MI PANTALLA, PARA QUE QUEDE CENTRADA, PERO NI BIEN LA CAMBIO DE PANTALLA SE DEFORMA*/
+    left: 70%;
+  }
+  
+  .personal-pre{
+      display: inline-block;
+      margin-right: 100px; 
+       
+       
+  }
+  
+  
+  
+  /*PIE DE PAGINA*/
+  
+  footer {
+    height: 200px;
+    color: #126491;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  footer p {
+    padding-top: 30px;
+    text-align: center;
+  }
